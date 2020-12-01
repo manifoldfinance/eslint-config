@@ -1,0 +1,35 @@
+{
+  "name": "@manifold/eslint-config-ts",
+  "version": "6.3.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Manifold Finance's ESLint config for TS libs",
+  "keywords": [
+    "eslint",
+    "config",
+    "typescript"
+  ],
+  "author": "Manifold Finance <git@manifoldfinance.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManifoldFinance/eslint-config.git"
+  },
+  "scripts": {
+    "test": "../../test.sh mugshot ts"
+  },
+  "dependencies": {
+    "@manifold/eslint-config-base": "^5.1.1",
+    "@typescript-eslint/eslint-plugin": "~3.10.0",
+    "@typescript-eslint/parser": "~3.10.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "typescript": "^4.0.0"
+  }
+}

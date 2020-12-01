@@ -1,0 +1,35 @@
+{
+  "name": "@manifold/eslint-config-tsx",
+  "version": "6.3.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Manifold Finance's ESLint config for TSX apps",
+  "keywords": [
+    "eslint",
+    "config",
+    "typescript",
+    "react"
+  ],
+  "author": "Manifold Finance <git@manifoldfinance.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManifoldFinance/eslint-config.git"
+  },
+  "scripts": {
+    "test": "../../test.sh tdd-buffet tsx"
+  },
+  "dependencies": {
+    "@manifold/eslint-config-react": "^4.0.1",
+    "@manifold/eslint-config-ts": "^6.3.1"
+  },
+  "peerDependencies": {
+    "eslint": "^7.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "typescript": "^4.0.0"
+  }
+}

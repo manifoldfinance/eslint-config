@@ -1,0 +1,28 @@
+{
+  "name": "@manifold/eslint-config-react",
+  "version": "4.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Manifold Finance's ESLint config for React components",
+  "keywords": [
+    "eslint",
+    "config",
+    "react"
+  ],
+  "author": "Manifold Finance <git@manifoldfinance.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManifoldFinance/eslint-config.git"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.0.0"
+  }
+}
